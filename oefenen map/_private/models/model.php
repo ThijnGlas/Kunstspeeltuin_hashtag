@@ -25,3 +25,11 @@ function getBericht($code){
 
 	return $statement->fetch();
 }
+
+function bewaarBericht($code,$bericht){
+	$connection = dbConnect();
+	$sql        = "INSERT INTO `berichten` (code, bericht) VALUES (?,?)";
+	$statement  = $connection->prepare( $sql );
+	$result = $statement->execute([$code, $bericht]);
+	return $result;
+}

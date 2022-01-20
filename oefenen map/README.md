@@ -33,6 +33,7 @@ Een template engine maakt het makkelijk om stukjes HTML te hergebruiken en om de
 Zo kun je makkelijker aanpassingen doen aan je website als deze ingewikkelder wordt of aangepast moet worden.
   
 Lees de documentatie: [http://platesphp.com/](http://platesphp.com/)
+command for the terminal local host php -S localhost:3000
  
  
  

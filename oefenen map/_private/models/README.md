@@ -13,4 +13,3 @@ In de controller function laad je dan het juiste bestand in (met require) dat je
 Je kunt ook het bestand models.php gebruiken en daar ALLE functions inzetten die gegevens ophalen. 
 Ligt er aan wat het meest handig is voor jouw website of situatie.
 
-command for the terminal local host php -S localhost:3000
