@@ -5,7 +5,8 @@
   "require": {
     "pecee/simple-router": "^4.3",
     "league/plates": "^3.4",
-    "ext-pdo": "*"
+    "ext-pdo": "*",
+    "bacon/bacon-qr-code": "^2.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
