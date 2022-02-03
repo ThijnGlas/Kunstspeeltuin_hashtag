@@ -60,4 +60,10 @@ class WebsiteController
 	$template_engine = get_template_engine();
 	echo $template_engine->render('qrcodeprinten');
 	}
+
+	public function qrCodesZ()
+	{
+	$template_engine = get_template_engine();
+	echo $template_engine->render('qrcodeprinten-Z');
+	}
 }
